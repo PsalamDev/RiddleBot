@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Joke & Riddle Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧠 Riddlebot 🌟</h1>
+        <p class="subtitle">Pick a category to generate a random joke and riddle!</p>
+
+        <!-- Category Selection -->
+        <div class="category-section">
+            <label for="category">Choose a Category:</label>
+            <select id="category">
+                <option value="school">🏫 School</option>
+                <option value="food">🍕 Food</option>
+                <option value="sports">⚽ Sports</option>
+                <option value="tech">💻 Tech</option>
+            </select>
+        </div>
+
+        <!-- Generate Button -->
+        <button id="generate-btn">Generate Fun! ✨</button>
+
+        <!-- Display Results -->
+        <div class="results-box">
+            <div class="result-card">
+                <h3>😂 The Joke</h3>
+                <p id="joke-text">Click generate to see a joke...</p>
+            </div>
+            
+            <div class="result-card">
+                <h3>🧩 The Riddle</h3>
+                <p id="riddle-text">Click generate to see a riddle...</p>
+            </div>
+        </div>
+
+        <!-- Rating Buttons -->
+        <div class="rating-section">
+            <p>Was it funny?</p>
+            <div class="rating-buttons">
+                <button class="rate-btn funny">😂 Funny</button>
+                <button class="rate-btn not-funny">😐 Not Funny</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
