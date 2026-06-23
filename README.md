@@ -14,7 +14,7 @@ Responsibilities:
 Deliverables:
 ●	index.html
 ●	style.css
-________________________________________
+
 Task 2: Joke & Riddle Generation Logic
 Dev Sawmod:  To work on feature/generator-logic  
 Responsibilities:
@@ -26,6 +26,7 @@ Responsibilities:
 Deliverables:
 ●	script.js
 ●	Content data structure or API integration
+
 Task 3: Rating System & Testing
 Dev Abdulsalam: To work on feature/rating-system
 Responsibilities:
